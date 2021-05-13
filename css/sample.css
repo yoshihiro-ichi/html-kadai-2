@@ -1,0 +1,151 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-top: 12%;
+  padding-bottom: 12%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+header {
+  /* position: fixed; */
+  width: 100%;
+  height: 50px;
+  background-color: #2B2B2B;
+}
+
+ header ul {
+  list-style: none;
+}
+
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+header li {
+
+}
+header ul:after {
+}
+
+.left{
+  float: left;
+  margin: auto;
+  width: 15%;
+  padding-left: 0;
+  text-align: left;
+}
+
+.right{
+  float: right;
+  margin: auto;
+  width: 15%;
+  padding-right: 0;
+  text-align: right;
+}
+
+
+/* ここまでがheader部分の実装 */
+.main-header img {
+text-align: center;
+float: none;
+margin: 0;
+padding: 0;
+width: 13%;
+vertical-align: middle;
+
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+}
+
+.topga{
+  /* text-align: right; */
+  margin: auto;
+}
+
+.about {
+  /* float: left; */
+}
+
+.about h1 {
+  font-size: 1.5rem;
+  margin: auto;
+  /* About Achieve部分の実装 */
+}
+.about p {
+  font-size: 0.8rem;
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+}
+
+
+
+/* ここから */
+.function {
+  display: block;
+  background-color: #D3D3D3;
+  margin-left: 0;
+  margin-right: 0;
+  /* text-align:right; */
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.function-images {
+background-color: #D3D3D3;
+/* display: inline; */
+/* text-align: center; */
+/* width: 50px 50px; */
+padding-left: 2rem;
+
+  }
+
+.function-image img {
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+
+}
+
+.function-image p{
+  font-size: 10px
+}
+
+.function-image {
+  /* float: left; */
+  /* margin-left: 25%; */
+  /* margin-right: 25%; */
+  width: 20%;
+  display:inline-block;
+  text-align: center;
+  padding: 10px;
+}
+/* ここまでがfunction部分の実装 */
+footer {
+  height: 70px;
+  background-color: #283A4B;
+
+
+  /* position: absolute;} */
+/* footer部分の実装 */
+}
+
+.fut{
+    font-size: 0.8rem;
+    margin: 0;
+    padding-top: 16px;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
